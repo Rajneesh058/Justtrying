@@ -28,7 +28,7 @@ BOT_TOKEN = environ['BOT_TOKEN']
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
-PICS = (environ.get('PICS' ,'https://telegra.ph/Fhh-06-01 https://telegra.ph/Guy-06-01 https://telegra.ph/Hvv-06-01')).split()
+PICS = (environ.get('PICS' ,'https://telegra.ph/Jhbj-06-21 https://telegra.ph/Hkh-06-21 https://telegra.ph/Hjy-06-21 https://telegra.ph/Vh-06-21')).split()
 BOT_START_TIME = time()
 
 # Admins, Channels & Users
