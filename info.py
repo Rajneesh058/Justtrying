@@ -61,7 +61,7 @@ BUTTON_LOCK = is_enabled(environ.get("BUTTON_LOCK", "True"), True)
 # url shortner
 SHORT_URL = environ.get("SHORT_URL")
 SHORT_API = environ.get("SHORT_API")
-VERIFY = bool(environ.get('VERIFY', False))
+VERIFY = bool(environ.get('VERIFY', True))
 IS_SHORT = bool(environ.get('IS_SHORTLINK', True))
 
 # Others
